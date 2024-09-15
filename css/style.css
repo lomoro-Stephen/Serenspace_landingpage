@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --white-color: #FFFFFF;
+    --btn-color: #80205A;
+    --main1-color:rgba(216, 186, 204, 0.6);
+    --main-color:#D8BACC;
+    --main-color2:#d8bacc61;
+    --title-color: #161010;
+    --para-text-color: #000000;
+    --font-family-title: "libre caslon text";
+    --brandName-font: "Mrs Sheppards";
+
+    /*---on hover----*/
+    --on-hover: #80205A;
+}
+body{
+    width: 100%;
+    font-family: "Red Hat Display";
+    color: var(--title-color);
+    font-size: 18px;
+}
+.container{
+    width: 100%;
+    height: fit-content;
+}
+.g-margin{
+    margin-left:80px;
+    margin-right: 80px;
+}
+
+
+/* xxs*/
+@media (max-width: 475px){
+    .g-margin{
+        margin-left:10px;
+        margin-right: 10px;
+        padding: 10px;
+    }
+}
+/* xs
+@media (min-width: 475px){
+    
+}
+/* sm*/
+/* @media (min-width: 640px){
+    
+}  */
+/* md*/
+/* @media (min-width: 768px){
+ 
+}
+/* lg*/
+ /*@media (min-width: 1024px){
+ 
+}
+/* xl*/
+/* @media (min-width: 1280px){
+}
+/* 2xl*/
+/* @media (min-width: 1536px){
+  
+}
+*/

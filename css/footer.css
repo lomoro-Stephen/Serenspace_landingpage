@@ -1,0 +1,142 @@
+footer{
+    padding: 40px 0 50px 0;
+    width: 100%;
+    background: var(--btn-color);
+}
+
+.upper-wrap{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-bottom: 20px;
+    box-shadow: 0 5px 3px -3px rgb(104, 4, 60);
+    gap: 30px;
+    
+}
+.socials .footer-logo{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+}
+.footer-logo div img{
+    width: 40px;
+    height: 40px;
+}
+.brandName{
+    font-family: var(--brandName-font);
+    color: var(--main-color);
+    font-size: 26px;
+    margin-left: -5px;
+}
+.social-links{
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+}
+.content{
+    border: 1px solid rgba(141, 79, 234, 0.659);
+    border-style: dashed;
+    text-align: center;
+}
+
+.footer-content h4{
+    color: var(--main-color);
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--font-family-title);
+    padding: 10px;
+    font-size: 16px;
+}
+.content p a, .copy-right, .lower-wrap a, .social-links a i{
+    color: var(--main-color);
+    font-size: 13px;
+}
+
+.content p{
+    padding:10px 2px 10px 2px;
+}
+
+.lower-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+
+.policies{
+    display: flex;
+    gap: 30px;
+}
+
+/* xxs*/
+
+@media (max-width: 475px){
+  .footer-large{
+    display: none;
+    
+  }
+  .mobile-footer{
+    overflow: hidden;
+  }
+.socials .footer-logo{
+    margin-top: 10px;
+}
+.upper-wrap{
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    
+}
+.lower-wrap{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.content p a, .copy-right, .lower-wrap a, .social-links a i{
+    color: var(--main-color);
+    font-size: 12px;
+}
+
+.footer-content h4{
+    padding: 10px;
+    font-size: 12px;
+}
+.brandName{
+  font-size: 12px;
+}
+.social-links{
+    gap: 2px;
+    padding-left: 1px;
+}
+.copy-right-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+/* xs*/
+@media (min-width: 475px){
+    
+}
+/* sm*/
+@media (min-width: 640px){
+    
+}  
+/* md*/
+@media (min-width: 768px){
+ 
+}
+/* lg*/
+@media (min-width: 1024px){
+ 
+}
+/* xl*/
+@media (min-width: 1280px){
+}
+/* 2xl*/
+ @media (min-width: 1536px){
+  
+}

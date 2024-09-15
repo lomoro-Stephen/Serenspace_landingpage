@@ -1,0 +1,89 @@
+.clients{
+    width: 100%;
+    height: 70vh;
+}
+.card-wrap{
+    position: relative;
+    width: 100%;
+    height: 30vh;
+}
+.cards{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card{
+    border: 1px solid var(--main-color);
+    border-radius: 10px;
+    padding: 40px;
+
+}
+.card-btn-left{
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    padding: 10px;
+    border-radius: 50%;
+    transform: translate(-10px, -50%);
+    background: var(--btn-color);
+}
+.card-btn-right{
+    position: absolute;
+    top: 50%;
+    right:  30px;
+    padding: 10px;
+    border-radius: 50%;
+    transform: translate(50px, -50%);
+    background: var(--btn-color);
+}
+.card-btn{
+    margin-top: 50px;
+}
+
+/* xxs*/
+@media (max-width: 475px){
+    
+    .card-wrap{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+       }
+    
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    .cards .card:not(:first-child) {
+        display: none;
+    }
+    .card-btn{
+        margin-top: 20px;
+    }
+    
+}
+
+/* xs*/
+@media (min-width: 475px){
+    
+}
+/* sm*/
+@media (min-width: 640px){
+    
+}
+/* md*/
+/* @media (min-width: 768px){
+ 
+}
+/* lg*/
+ /*@media (min-width: 1024px){
+ 
+}
+/* xl*/
+/* @media (min-width: 1280px){
+}
+/* 2xl*/
+/* @media (min-width: 1536px){
+  
+}
+*/

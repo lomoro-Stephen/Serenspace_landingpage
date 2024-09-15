@@ -1,0 +1,137 @@
+.consultants{
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+.consultant-wrap{
+    width: calc(100% - 160px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.experts-wrap{
+    position: relative;
+}
+.expert-imgs{
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+.therapist{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.btnRight, .btnLeft{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+    z-index: 4;
+}
+.btnLeft{
+   position: absolute;
+   top: 50%;
+   transform: translate(-50%);
+   
+}
+.btnRight{
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translate(-50px,-50%);
+    
+ }
+.btnLeft i,.btnRight i{
+    margin-right: 10px;
+}
+.experts-content{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid var(--main-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.right-wrap{
+    padding-left: 80px;
+    border-left: 1px solid var(--main-color);
+}
+.experts-subtitle{
+    font-size: 2rem;
+    font-family: var(--font-family-title);
+}
+
+/* xxs*/
+@media (max-width: 475px){
+    .consultants{
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .consultant-wrap{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .expert-imgs{
+        gap: 5px;
+    }
+    .therapist{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .btnRight, .btnLeft{
+        padding: 20px;
+    }
+    .btnLeft{
+       position: absolute;
+       top: 50%;
+       left: -10px;
+       transform: translate(-10px,-50%);
+       
+    }
+
+    .experts-content{
+        gap: 20px;
+    }
+    .right-wrap{
+        padding-left: 10px;
+    }
+    .experts-subtitle{
+        font-size: 0.8rem;
+        font-family: var(--font-family-title);
+    }
+    
+}
+/* xs
+@media (min-width: 475px){
+    
+}
+/* sm*/
+/* @media (min-width: 640px){
+    
+}  */
+/* md*/
+/* @media (min-width: 768px){
+ 
+}
+/* lg*/
+ /*@media (min-width: 1024px){
+ 
+}
+/* xl*/
+/* @media (min-width: 1280px){
+}
+/* 2xl*/
+/* @media (min-width: 1536px){
+  
+}
+*/ 

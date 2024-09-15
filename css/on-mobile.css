@@ -1,0 +1,57 @@
+.on-Mobile{
+    padding: 20px;
+    display: none;
+}
+.notfication{
+   height: fit-content;
+    background: var(--main-color);
+    border-radius: 5px;
+    padding: 20px;
+}
+.nTitle,p{
+    text-align: center;
+}
+.box{
+    width: 60%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px 0px 20px 0;
+    margin-top: 20px;
+}
+
+
+/* xxs*/
+
+@media (max-width: 475px){
+.on-Mobile{
+    display: block;
+}
+
+}
+/* xs
+@media (min-width: 475px){
+    
+}
+/* sm*/
+/* @media (min-width: 640px){
+    
+}  */
+/* md*/
+/* @media (min-width: 768px){
+ 
+}
+/* lg*/
+ /*@media (min-width: 1024px){
+ 
+}
+/* xl*/
+/* @media (min-width: 1280px){
+}
+/* 2xl*/
+/* @media (min-width: 1536px){
+  
+}
+*/

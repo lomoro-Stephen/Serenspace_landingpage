@@ -1,0 +1,200 @@
+.btn{
+    background-color: var(--btn-color);
+    padding: 10px;
+    border-radius: 20px;
+    color: var(--white-color);
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+}
+.full-btn-hover:hover{
+    background: transparent;
+    border: 1px solid var(--btn-color);
+    color: var(--btn-color);
+}
+.ebtn{
+    padding: 10px 20px 10px 20px;
+    background: var(--btn-color);
+    font-size: 1rem;
+    border-radius: 50px;
+    color: var(--white-color);
+}
+
+.gBtn{
+    background: transparent;
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.title,.title2{
+    font-size: 40px;
+    color: var(--title-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    
+}
+.title,.title2,.card-title{
+    font-family: "libre caslon text";
+}
+.title{
+    text-align: center;
+}
+.title2{
+    text-align: start;
+}
+.bg-img{
+    background: url("../assets/hero.png") no-repeat center center;
+    background-size: cover;
+}
+i{
+    color: var(--white-color);
+}
+
+.margin-t{
+    margin-top: 30px;
+}
+.margin-b{
+    margin-top: -30px;
+}
+.para-wrap{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.para-wrap i{
+    color: var(--btn-color);
+}
+.subtitle{
+    font-size: 3rem;
+    font-family: "libre caslon text";
+    font-weight: 400;
+}
+.btn-border-radius{
+    border-radius: 50px;
+}
+.btn-bg{
+    background: var(--btn-color);
+    color: var(--white-color);
+}
+.p-btn{
+    padding: 10px;
+}
+.card-text{
+    font-size: 12px;
+}
+.quote{
+    font-size: 80px;
+    font-weight: 600;
+    color: var(--btn-color);
+    font-family: "libre caslon text";
+}
+
+.stars-wrap{
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-star{
+    color: rgb(255, 191, 0);
+}
+
+
+/* xxs*/
+@media (max-width: 475px){
+    .btn{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .ebtn{
+        font-size: 0.5rem;
+    }
+    
+.title,.title2{
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    
+}
+p{
+    font-size: 12px;
+}
+.quote{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.stars-wrap{
+    margin-top: -10px;
+}
+.fa-star{
+    font-size: 10px;
+    color: rgb(255, 191, 0);
+}
+}
+/* xs*/
+@media (max-width: 475px){
+    .title{
+        font-size: 1.5rem;
+    }
+    .subtitle{
+        font-size: 14px;
+        font-family: "libre caslon text";
+        font-weight: 400;
+    }
+}
+/* xs*/
+@media (min-width: 475px){
+    .title{
+        font-size: 1.5rem;
+    }
+    .subtitle{
+        font-size: 14px;
+        font-family: "libre caslon text";
+        font-weight: 400;
+    }
+}
+/* sm*/
+@media (min-width: 640px){
+    
+}
+/* md*/
+@media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+    
+    
+}
+/* lg*/
+@media (min-width: 1024px){
+    .container{
+        max-width: 1024px;
+    }
+    
+    .section{
+    margin-top: 5rem;
+}
+}
+/* xl*/
+@media (min-width: 1280px){
+    .container{
+        max-width: 100%;
+    }
+    
+    
+}
+/* 2xl*/
+@media (min-width: 1536px){
+    .container{
+        max-width: 100%;
+    }
+    
+    
+}
